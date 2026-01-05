@@ -108,7 +108,8 @@ header {
   bottom: 0;
   content: '';
   width: 100%;
-  border-bottom: 2px solid #404bbf;
+  height: 4px;
+  background-color: #404bbf;
   border-radius: 2px;
   transform: scaleX(0);
   transform-origin: left;
@@ -187,6 +188,7 @@ header {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
+  letter-spacing: 0.02em;
   line-height: 1.07;
   margin-bottom: 48px;
   margin-left: auto;
@@ -238,6 +240,7 @@ header {
 }
 
 .icon-wrapper {
+  height: 112px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,6 +262,7 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Team section */
@@ -299,6 +303,7 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -344,7 +349,6 @@ header {
 
 .portfolio-card {
   width: calc((100% - 48px) / 3);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -405,6 +409,7 @@ header {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-wrapper {
